@@ -1,13 +1,21 @@
 {
-  "updated_at": "2026-07-21T00:00:00Z",
+  "updated_at": "2026-07-21T01:12:31.592283Z",
   "items": [
     {
-      "title": "Feed initialised — real intel coming soon",
-      "summary": "This feed is powered by KubeIntel, a self-managed Kubernetes platform running on bare-metal ARM64 nodes. Summaries are generated automatically using the Claude API and pushed here via an n8n workflow running inside the cluster.",
-      "risk_level": "Low",
-      "category": "Platform",
-      "source_url": "https://github.com/simranjeet19/kubeintel-ai-cybersecurity-platform",
-      "updated_at": "2026-07-21T00:00:00Z"
+      "title": "CVE-2024-12345: Critical OpenSSL RCE",
+      "source_url": "",
+      "category": "vulnerability",
+      "summary": "A critical buffer overflow vulnerability (CVE-2024-12345) in OpenSSL 3.x enables remote code execution through a malformed TLS certificate chain, carrying a CVSS score of 9.8. All versions prior to 3.2.1 are affected. Immediate patching to version 3.2.1 or later is strongly recommended.",
+      "risk_level": "Critical",
+      "updated_at": "2026-07-21T00:12:40.947759"
+    },
+    {
+      "title": "CVE-2024-12345: Critical OpenSSL RCE",
+      "source_url": "",
+      "category": "vulnerability",
+      "summary": "A critical buffer overflow vulnerability (CVE-2024-12345) in OpenSSL 3.x enables remote code execution through a malformed TLS certificate chain, carrying a CVSS score of 9.8. All versions prior to 3.2.1 are affected. Immediate patching to version 3.2.1 or later is strongly recommended.",
+      "risk_level": "Critical",
+      "updated_at": "2026-07-20T23:19:43.477409"
     }
   ]
 }
