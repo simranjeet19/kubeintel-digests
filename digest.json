@@ -1,21 +1,45 @@
 {
-  "updated_at": "2026-07-21T01:12:31.592283Z",
+  "updated_at": "2026-07-21T00:00:00Z",
   "items": [
     {
-      "title": "CVE-2024-12345: Critical OpenSSL RCE",
-      "source_url": "",
-      "category": "vulnerability",
-      "summary": "A critical buffer overflow vulnerability (CVE-2024-12345) in OpenSSL 3.x enables remote code execution through a malformed TLS certificate chain, carrying a CVSS score of 9.8. All versions prior to 3.2.1 are affected. Immediate patching to version 3.2.1 or later is strongly recommended.",
+      "title": "CVE-2025-24054: NTLM Hash Disclosure in Windows Explorer",
+      "summary": "A critical spoofing vulnerability in Windows Explorer allows attackers to capture NTLM hashes via a malicious .library-ms file, requiring minimal user interaction. CVSS score 8.8. Actively exploited in the wild according to CISA KEV.",
       "risk_level": "Critical",
-      "updated_at": "2026-07-21T00:12:40.947759"
+      "category": "vulnerability",
+      "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24054",
+      "updated_at": "2026-07-21T00:00:00Z"
     },
     {
-      "title": "CVE-2024-12345: Critical OpenSSL RCE",
-      "source_url": "",
-      "category": "vulnerability",
-      "summary": "A critical buffer overflow vulnerability (CVE-2024-12345) in OpenSSL 3.x enables remote code execution through a malformed TLS certificate chain, carrying a CVSS score of 9.8. All versions prior to 3.2.1 are affected. Immediate patching to version 3.2.1 or later is strongly recommended.",
+      "title": "CVE-2025-29824: Windows CLFS Driver Privilege Escalation",
+      "summary": "A use-after-free vulnerability in the Windows Common Log File System driver allows local privilege escalation to SYSTEM. Exploited by ransomware groups in targeted attacks. Patch immediately on all Windows Server instances.",
+      "risk_level": "High",
+      "category": "exploited-in-wild",
+      "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29824",
+      "updated_at": "2026-07-21T00:00:00Z"
+    },
+    {
+      "title": "CVE-2025-30065: Apache Parquet RCE via Malicious Schema",
+      "summary": "Deserialisation of untrusted data in Apache Parquet Java allows remote code execution when reading a crafted Parquet file. Affects all versions up to 1.15.0. Critical for data pipelines ingesting external Parquet files.",
       "risk_level": "Critical",
-      "updated_at": "2026-07-20T23:19:43.477409"
+      "category": "vulnerability",
+      "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30065",
+      "updated_at": "2026-07-21T00:00:00Z"
+    },
+    {
+      "title": "CISA KEV: Gladinet CentreStack Hardcoded Key RCE (CVE-2025-30406)",
+      "summary": "Gladinet CentreStack contains a hardcoded cryptographic key vulnerability enabling remote code execution. Added to CISA Known Exploited Vulnerabilities catalogue. Federal agencies required to patch by May 2025.",
+      "risk_level": "Critical",
+      "category": "exploited-in-wild",
+      "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "updated_at": "2026-07-21T00:00:00Z"
+    },
+    {
+      "title": "CVE-2025-1974: Ingress-NGINX Unauthenticated RCE",
+      "summary": "A critical unauthenticated RCE in ingress-nginx allows attackers to inject arbitrary NGINX configuration via the admission controller. Affects Kubernetes clusters with ingress-nginx installed. Patch to v1.12.1 or v1.11.5 immediately.",
+      "risk_level": "Critical",
+      "category": "kubernetes",
+      "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1974",
+      "updated_at": "2026-07-21T00:00:00Z"
     }
   ]
 }
