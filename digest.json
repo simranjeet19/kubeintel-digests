@@ -1,6 +1,6 @@
 {
   "platform": "KubeIntel",
-  "generated_at": "2026-07-21T04:22:51.470Z",
+  "generated_at": "2026-07-21T04:28:28.767Z",
   "item_count": 1,
   "sources": [
     "NVD CVE API",
@@ -9,19 +9,19 @@
   "items": [
     {
       "id": "item-1",
-      "title": "CVE-1999-0095",
+      "title": "CVE-2026-54006",
       "source": "unknown",
-      "category": "nvd-cve",
+      "category": "ai-cybersecurity-vulnerability",
       "severity": "unknown",
       "published": null,
       "lastModified": null,
       "source_url": "",
-      "summary": "This vulnerability (CVE-1999-0095) involves the debug command being enabled in Sendmail, a widely used mail transfer agent. When active, this feature allows remote attackers to execute arbitrary commands with root privileges, granting complete control over the affected system. This is the historic flaw famously exploited by the 1988 Morris Worm.",
+      "summary": "CVE-2026-54006 is a broken access control (IDOR) vulnerability in Open WebUI prior to version 0.9.6, affecting the calendar event update endpoint. The endpoint validates write access to an event's current calendar but fails to authorize the destination calendar_id in the request body, allowing a regular user to move events into any other user's calendar if they know its ID. The issue is fixed in version 0.9.6.",
       "raw": {
-        "title": "CVE-1999-0095",
-        "summary": "This vulnerability (CVE-1999-0095) involves the debug command being enabled in Sendmail, a widely used mail transfer agent. When active, this feature allows remote attackers to execute arbitrary commands with root privileges, granting complete control over the affected system. This is the historic flaw famously exploited by the 1988 Morris Worm.",
-        "risk_level": "Critical",
-        "category": "nvd-cve"
+        "title": "CVE-2026-54006",
+        "summary": "CVE-2026-54006 is a broken access control (IDOR) vulnerability in Open WebUI prior to version 0.9.6, affecting the calendar event update endpoint. The endpoint validates write access to an event's current calendar but fails to authorize the destination calendar_id in the request body, allowing a regular user to move events into any other user's calendar if they know its ID. The issue is fixed in version 0.9.6.",
+        "risk_level": "Medium",
+        "category": "ai-cybersecurity-vulnerability"
       }
     }
   ]
