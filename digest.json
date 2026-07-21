@@ -1,6 +1,6 @@
 {
   "platform": "KubeIntel",
-  "generated_at": "2026-07-21T04:28:28.767Z",
+  "generated_at": "2026-07-21T04:39:06.972Z",
   "item_count": 1,
   "sources": [
     "NVD CVE API",
@@ -16,10 +16,10 @@
       "published": null,
       "lastModified": null,
       "source_url": "",
-      "summary": "CVE-2026-54006 is a broken access control (IDOR) vulnerability in Open WebUI prior to version 0.9.6, affecting the calendar event update endpoint. The endpoint validates write access to an event's current calendar but fails to authorize the destination calendar_id in the request body, allowing a regular user to move events into any other user's calendar if they know its ID. The issue is fixed in version 0.9.6.",
+      "summary": "CVE-2026-54006 is a broken access control (IDOR-style) vulnerability in Open WebUI versions prior to 0.9.6. The event update endpoint validates write access to the event's current calendar but fails to authorize the destination calendar_id in the request body, allowing a regular user to move events into any other user's calendar if they know its ID. The flaw is fixed in version 0.9.6.",
       "raw": {
         "title": "CVE-2026-54006",
-        "summary": "CVE-2026-54006 is a broken access control (IDOR) vulnerability in Open WebUI prior to version 0.9.6, affecting the calendar event update endpoint. The endpoint validates write access to an event's current calendar but fails to authorize the destination calendar_id in the request body, allowing a regular user to move events into any other user's calendar if they know its ID. The issue is fixed in version 0.9.6.",
+        "summary": "CVE-2026-54006 is a broken access control (IDOR-style) vulnerability in Open WebUI versions prior to 0.9.6. The event update endpoint validates write access to the event's current calendar but fails to authorize the destination calendar_id in the request body, allowing a regular user to move events into any other user's calendar if they know its ID. The flaw is fixed in version 0.9.6.",
         "risk_level": "Medium",
         "category": "ai-cybersecurity-vulnerability"
       }
