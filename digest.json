@@ -1,45 +1,28 @@
 {
-  "updated_at": "2026-07-21T00:00:00Z",
+  "platform": "KubeIntel",
+  "generated_at": "2026-07-21T04:22:51.470Z",
+  "item_count": 1,
+  "sources": [
+    "NVD CVE API",
+    "CISA KEV Catalog"
+  ],
   "items": [
     {
-      "title": "CVE-2025-24054: NTLM Hash Disclosure in Windows Explorer",
-      "summary": "A critical spoofing vulnerability in Windows Explorer allows attackers to capture NTLM hashes via a malicious .library-ms file, requiring minimal user interaction. CVSS score 8.8. Actively exploited in the wild according to CISA KEV.",
-      "risk_level": "Critical",
-      "category": "vulnerability",
-      "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-24054",
-      "updated_at": "2026-07-21T00:00:00Z"
-    },
-    {
-      "title": "CVE-2025-29824: Windows CLFS Driver Privilege Escalation",
-      "summary": "A use-after-free vulnerability in the Windows Common Log File System driver allows local privilege escalation to SYSTEM. Exploited by ransomware groups in targeted attacks. Patch immediately on all Windows Server instances.",
-      "risk_level": "High",
-      "category": "exploited-in-wild",
-      "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-29824",
-      "updated_at": "2026-07-21T00:00:00Z"
-    },
-    {
-      "title": "CVE-2025-30065: Apache Parquet RCE via Malicious Schema",
-      "summary": "Deserialisation of untrusted data in Apache Parquet Java allows remote code execution when reading a crafted Parquet file. Affects all versions up to 1.15.0. Critical for data pipelines ingesting external Parquet files.",
-      "risk_level": "Critical",
-      "category": "vulnerability",
-      "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-30065",
-      "updated_at": "2026-07-21T00:00:00Z"
-    },
-    {
-      "title": "CISA KEV: Gladinet CentreStack Hardcoded Key RCE (CVE-2025-30406)",
-      "summary": "Gladinet CentreStack contains a hardcoded cryptographic key vulnerability enabling remote code execution. Added to CISA Known Exploited Vulnerabilities catalogue. Federal agencies required to patch by May 2025.",
-      "risk_level": "Critical",
-      "category": "exploited-in-wild",
-      "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "updated_at": "2026-07-21T00:00:00Z"
-    },
-    {
-      "title": "CVE-2025-1974: Ingress-NGINX Unauthenticated RCE",
-      "summary": "A critical unauthenticated RCE in ingress-nginx allows attackers to inject arbitrary NGINX configuration via the admission controller. Affects Kubernetes clusters with ingress-nginx installed. Patch to v1.12.1 or v1.11.5 immediately.",
-      "risk_level": "Critical",
-      "category": "kubernetes",
-      "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1974",
-      "updated_at": "2026-07-21T00:00:00Z"
+      "id": "item-1",
+      "title": "CVE-1999-0095",
+      "source": "unknown",
+      "category": "nvd-cve",
+      "severity": "unknown",
+      "published": null,
+      "lastModified": null,
+      "source_url": "",
+      "summary": "This vulnerability (CVE-1999-0095) involves the debug command being enabled in Sendmail, a widely used mail transfer agent. When active, this feature allows remote attackers to execute arbitrary commands with root privileges, granting complete control over the affected system. This is the historic flaw famously exploited by the 1988 Morris Worm.",
+      "raw": {
+        "title": "CVE-1999-0095",
+        "summary": "This vulnerability (CVE-1999-0095) involves the debug command being enabled in Sendmail, a widely used mail transfer agent. When active, this feature allows remote attackers to execute arbitrary commands with root privileges, granting complete control over the affected system. This is the historic flaw famously exploited by the 1988 Morris Worm.",
+        "risk_level": "Critical",
+        "category": "nvd-cve"
+      }
     }
   ]
 }
