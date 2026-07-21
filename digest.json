@@ -1,0 +1,12 @@
+{
+  "updated_at": "2026-07-21T00:00:00Z",
+  "items": [
+    {
+      "title": "Feed initialised — real intel coming soon",
+      "summary": "This feed is powered by KubeIntel, a self-managed Kubernetes platform running on bare-metal ARM64 nodes. Summaries are generated automatically using the Claude API and pushed here via an n8n workflow running inside the cluster.",
+      "risk_level": "Low",
+      "category": "platform",
+      "source_url": "https://github.com/simranjeet19/kubeintel-ai-cybersecurity-platform"
+    }
+  ]
+}
